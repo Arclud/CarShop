@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:text="Категория" />
+
+            <TextView
+                android:id="@+id/typeOfTransport"
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Авто" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EECCCBCB" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Тип транспорта" />
+
+            <TextView
+                android:id="@+id/carRegion"
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Легковые" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EECCCBCB" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Город" />
+
+            <TextView
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Любой" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EECCCBCB" />
+
+        <LinearLayout
+            android:id="@+id/clickMark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Марка" />
+
+            <TextView
+                android:id="@+id/carBrand"
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="неважно" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EECCCBCB" />
+
+
+        <LinearLayout
+            android:id="@+id/clickModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Модель" />
+
+            <TextView
+                android:id="@+id/carModel"
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="любой" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EECCCBCB" />
+
+        <LinearLayout
+            android:id="@+id/clickSteeringWheel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Руль" />
+
+            <TextView
+                android:id="@+id/carSteeringWheel"
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="неважно" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EECCCBCB" />
+
+        <LinearLayout
+            android:id="@+id/clickOil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Топливо" />
+
+            <TextView
+                android:id="@+id/carOil"
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="неважно" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EECCCBCB" />
+
+        <LinearLayout
+            android:id="@+id/clickDriveUnit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Привод" />
+
+            <TextView
+                android:id="@+id/carDriveUnit"
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="любой" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EECCCBCB" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:orientation="vertical">
+
+            <TextView
+
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Цвет" />
+
+            <TextView
+                android:id="@+id/carColor"
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="неважно" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EECCCBCB" />
+
+
+        <LinearLayout
+            android:id="@+id/clickSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Скорость" />
+
+            <TextView
+                android:id="@+id/carSpeed"
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="неважно" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EECCCBCB" />
+
+
+        <LinearLayout
+            android:id="@+id/clickVolume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Объем" />
+
+            <TextView
+
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="неважно" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EECCCBCB" />
+
+        <LinearLayout
+            android:id="@+id/carYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Год выпуска" />
+
+            <TextView
+                android:id="@+id/carVolume"
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="любой" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EECCCBCB" />
+
+        <LinearLayout
+            android:id="@+id/carKPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CarOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="КПП" />
+
+            <TextView
+                android:id="@+id/carTransmission"
+                style="@style/CarOption."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="любой" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

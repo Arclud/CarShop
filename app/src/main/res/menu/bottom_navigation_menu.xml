@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_menu"
+        android:icon="@drawable/car"
+        android:title="Авто"
+
+
+        />
+    <item
+        android:id="@+id/home_moto"
+        android:icon="@drawable/ic_motorcycle_black_24dp"
+        android:title="Мото"
+    />
+
+    <item
+        android:id="@+id/home_add"
+        android:icon="@drawable/add_button"
+        android:title="Добавить"
+        />
+    <item
+        android:id="@+id/home_favourite"
+        android:icon="@drawable/favorite"
+        android:title="Избранное"
+
+        />
+
+    <item
+        android:id="@+id/home_profile"
+        android:icon="@drawable/user"
+        android:title="Профиль"
+
+
+        />
+</menu>

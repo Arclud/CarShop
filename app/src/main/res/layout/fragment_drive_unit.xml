@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/driveUnitTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="передний"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="0.4dp"
+        android:background="#000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/driveUnitBottom"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="задний"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="0.4dp"
+        android:background="#000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/driveUnitFull"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="полный"
+        android:textColor="#000"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="0.4dp"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/driveUnitAny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="любой"
+        android:textColor="#000"
+        android:textStyle="bold" />
+</LinearLayout>

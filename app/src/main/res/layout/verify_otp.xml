@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/two"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EE2B2A2A"
+        android:backgroundTint="#CC383737"
+        tools:targetApi="lollipop">
+
+        <TextView
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="60dp"
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите код из смс"
+            android:textColor="#EEF7F8F7"
+            android:textSize="18dp"
+            android:alpha="0.7"
+            android:fontFamily="sans-serif-black"
+            />
+    <com.goodiebag.pinview.Pinview
+
+        app:cursorVisible="false"
+        android:layout_margin="16dp"
+        android:id="@+id/pinView"
+        app:pinHeight="50dp"
+        app:forceKeyboard="true"
+        app:pinWidth="40dp"
+        app:hint="0"
+
+        app:textSize="8dp"
+        app:pinBackground="@drawable/button_clickable"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:inputType="number"
+        app:pinLength="6"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/buttonRegister"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pinView"
+            android:layout_margin="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="ПОДТВЕРДИТЬ"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/button_clickable"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

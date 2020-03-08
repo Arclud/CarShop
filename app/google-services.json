@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "197666916883",
+    "firebase_url": "https://yourcar-c755d.firebaseio.com",
+    "project_id": "yourcar-c755d",
+    "storage_bucket": "yourcar-c755d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197666916883:android:ae040db36483076d2e0de6",
+        "android_client_info": {
+          "package_name": "com.example.yourcar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197666916883-27bpfu9obpajes79v8ibgcbqi2d08j9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yourcar",
+            "certificate_hash": "59d2b3bda33508b56936dcfe30cb16a49bc216df"
+          }
+        },
+        {
+          "client_id": "197666916883-7j1p6s10u9p9bck6scamh0qrspvuqajc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUt27wN_yxhxpjZZT2I6Ltq-QDkwHQ2PE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197666916883-7j1p6s10u9p9bck6scamh0qrspvuqajc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
